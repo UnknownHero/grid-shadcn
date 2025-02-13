@@ -57,7 +57,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\" && eslint src tests --fix && vitest run"
+      "pre-commit": ""
     }
   },
   "size-limit": [

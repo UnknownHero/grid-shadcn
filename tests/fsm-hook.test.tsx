@@ -1,5 +1,4 @@
-import {it, expect, describe, vi} from 'vitest'
-import {render, screen, fireEvent, renderHook, act} from '@testing-library/react';
+import {it, expect, describe} from 'vitest'
 
 describe('test', () => {
   it('false test', () => {

@@ -4,58 +4,29 @@ import React from 'react';
  * https://mui.com/material-ui/api/grid-2/
  */
 export interface MUIGrid {
-  children: React.ReactNode,
+  children: React.ReactNode;
 
-  columns: Array<number>
-    | number
-    | object
+  columns: Array<number> | number | object;
 
-  columnSpacing: Array<number
-      | string>
-    | number
-    | object
-    | string
+  columnSpacing: Array<number | string> | number | object | string;
 
-  container: boolean
+  container: boolean;
 
-  direction: 'column-reverse'
+  direction:
+    | 'column-reverse'
     | 'column'
     | 'row-reverse'
     | 'row'
-    | Array<'column-reverse'
-    | 'column'
-    | 'row-reverse'
-    | 'row'>
-    | object
+    | Array<'column-reverse' | 'column' | 'row-reverse' | 'row'>
+    | object;
 
-  offset: string
-    | number
-    | Array<string
-    | number>
-    | object
+  offset: string | number | Array<string | number> | object;
 
-  rowSpacing: Array<number
-      | string>
-    | number
-    | object
-    | string
+  rowSpacing: Array<number | string> | number | object | string;
 
-  size: string
-    | boolean
-    | number
-    | Array<string
-    | boolean
-    | number>
-    | object
+  size: string | boolean | number | Array<string | boolean | number> | object;
 
-  spacing: Array<number
-      | string>
-    | number
-    | object
-    | string
+  spacing: Array<number | string> | number | object | string;
 
-  wrap: 'nowrap'
-    | 'wrap-reverse'
-    | 'wrap'
-
+  wrap: 'nowrap' | 'wrap-reverse' | 'wrap';
 }
